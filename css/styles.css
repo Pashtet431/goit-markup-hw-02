@@ -9,7 +9,7 @@
 .link {
   text-decoration: none;
 }
-.body {
+body {
   font-family: var(--basic-title);
   color: #212121;
 }
