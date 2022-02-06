@@ -25,6 +25,7 @@
 }
 .nav-list {
   font-family: var(--basic-title);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -116,6 +117,7 @@
 
 .adress {
   font-family: var(--basic-title);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -123,15 +125,26 @@
   color: #ffffff;
 }
 
-.footer-mail,
-.footer-tel {
+.adress:hover,
+address:focus {
+  color: var(--accent-color);
+}
+
+.nav-list-f:hover,
+.nav-list-f:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.nav-list-f {
   font-family: var(--basic-title);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer {
-  background-color: #2f303a;
 }
