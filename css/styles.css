@@ -9,6 +9,10 @@
 .link {
   text-decoration: none;
 }
+.body {
+  font-family: var(--basic-title);
+  color: #212121;
+}
 
 /*  Шапка */
 
@@ -17,7 +21,6 @@
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -25,7 +28,6 @@
 }
 .nav-list {
   font-family: var(--basic-title);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,6 +63,7 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* Наши преимущества */
@@ -76,7 +79,6 @@
 }
 .adv-text {
   font-family: var(--basic-title);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -105,7 +107,6 @@
 }
 .worker-position {
   font-family: var(--basic-title);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -118,7 +119,6 @@
 .adress {
   font-family: var(--basic-title);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -142,9 +142,63 @@ address:focus {
 .nav-list-f {
   font-family: var(--basic-title);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.logo-f {
+  color: #ffffff;
+}
+
+/* ==ПОРТФОЛИО== */
+
+/* Скрытый заголовок Н1 */
+
+.visually-hidden {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Кнопки сортировки работ */
+
+.btn-p {
+  font-family: var(--basic-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.btn-p:hover,
+.btn-p:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Подписи под работами */
+
+.work-list {
+  font-family: var(--basic-title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.work-type {
+  font-family: var(--basic-title);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
